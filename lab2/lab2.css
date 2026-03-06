@@ -1,0 +1,49 @@
+.for_table, .for_td_1, .for_td_2, .for_td_3, .for_td_4, .for_td_dop, .for_td_2_sec, .for_td_1_sec, .for_td_5, .for_td_6 {
+        border: 1px solid black;
+        border-collapse: collapse;
+}
+
+.for_table {
+    width: 50%;
+}
+
+.for_td_1 {
+    text-align: center;
+}
+
+.for_td_2 {
+    text-align: left;
+}
+
+.for_td_3 {
+    text-align: center;
+}
+
+.for_td_4 {
+    text-align: center;
+}
+
+.for_td_5 {
+    text-align: center;
+}
+
+.for_td_6 {
+    text-align: left;
+}
+
+.for_td_1_sec {
+    padding: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.for_td_2_sec {
+    padding: 10px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+.for_td_dop {
+    text-align: center;
+}
