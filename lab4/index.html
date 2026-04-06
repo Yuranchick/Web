@@ -18,12 +18,37 @@
             </ul>
 						</nav>
 				</header>
-				<main>
+				<main class="container">
 						<p class="subtitle"><b>Спеціальність:</b> C1 Економіка та міжнародні економічні відносини</p>
             <p class="subtitle"><b>Галузь знань:</b> С "Соціальні науки,журналістика та інформація"</p>
             <p class="subtitle"><b>Рівень вищої освіти:</b> магістр з економіки та міжнародних економічних відносин</p>
             <h2 id="goal">Мета освітньої програми</h2>
             <p class="subtitle">Підготовка висококваліфікованих професіоналів у сфері економіки, які володіють сучасним економічним мисленням, теоретичними знаннями<br> і прикладними навичками, здатних вирішувати дослідницькі й управлінські завдання та проблеми функціонування економічних систем різного рівня</p>
+						<div class="form">
+							<h2>Форма для проходження тесту "Чи підходить мені IT?"</h2>
+							<form id="form_container" oninput="result.value=study_value.value">
+								<p>Рівень ПК</p>
+								<input type="radio" name="PC_level" value="High" id="radio_input">
+								<label for="">Початківець</label><br>
+								<input type="radio" name="PC_level" value="Medium" id="radio_input">
+								<label for="">Продвинутий</label><br>
+								<input type="radio" name="PC_level" value="Low" id="radio_input">
+								<label for="">Знавець</label><br>
+								<p>Годин на навчання(від 0 до 24)</p>
+								<input type="range" min="0" max="24" value="12" name="study_value" id="range_input">
+								<output name="result" id="output_label">12</output>
+								<p>Очікування від навчання</p>
+								<input type="checkbox" id="checkbox_input">
+								<label>Здобути нові знання з нуля</label><br>
+								<input type="checkbox" id="checkbox_input">
+								<label>Структурувати та поглибити існуючі навички</label><br>
+								<input type="checkbox" id="checkbox_input">
+								<label>Отримати практичний досвід для портфоліо</label><br>
+								<input type="checkbox" id="checkbox_input">
+								<label>Просто для загального розвитку</label><br>
+								<button type="submit" id="button_input"><p>Надіслати</p></button>
+							</form>
+						</div>
 				</main>
 				<footer>
 					<p>Гобрей Ю. В. © ІФНТУНГ, 2026 р.</p>

@@ -114,8 +114,10 @@ header h1 {
 	padding-top: 150px;
 	margin-top: 0px;
 }
-main {
-	margin: 10px;
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 20px;
 }
 footer {
 	padding: 20px;
@@ -123,11 +125,49 @@ footer {
 .authors	{
 	vertical-align: top;
 	display: inline-block;
-	width: 17%;
+	width: 15%;
 	margin: 15px;
 }
 .authors img {
 	object-fit: cover;
 	width:100%;
 	height: 80%;
+}
+.form {
+	margin: 0 auto;
+	padding: 20px;
+}
+.form h2 {
+	margin: 20px;
+}
+#form_container{
+	margin: 0 auto;
+	width: 50%;
+	border: 2px solid #9A3412;
+	padding: 10px;
+
+}
+#radio_input {
+	margin: 10px;
+}
+#range_input {
+	margin: 10px;
+}
+#checkbox_input {
+	margin: 10px;
+}
+#button_input {
+	background-color: #FFF7ED;
+	border: 1px solid #9A3412;
+	margin: 10px;
+	width: 80px;
+	height: 30px;
+}
+form p {
+	margin: 5px;
+	text-align: center;
+	color: #9A3412;
+}
+#output_label {
+	border: 1px solid black;
 }
